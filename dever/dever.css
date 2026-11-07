@@ -49,3 +49,73 @@ a {
   text-align: center;
   padding: 15px;
 }
+
+.form-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 65vh;
+  padding-bottom: 90px;
+}
+
+.form-box {
+  width: 380px;
+  background-color: white;
+  border: 2px solid #c62828;
+  padding: 30px;
+}
+
+.form-box h1 {
+  text-align: center;
+  color: #c62828;
+}
+
+.o-nhap {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+}
+
+.hang-checkbox {
+  margin-bottom: 15px;
+}
+
+.nut {
+  display: block;
+  padding: 12px;
+  background-color: #c62828;
+  color: white;
+  text-align: center;
+}
+
+.nut:hover {
+  background-color: #1b5e20;
+}
+
+.chuyen-trang {
+  text-align: center;
+  margin-top: 15px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    position: relative;
+    width: 200px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+}
+.product-image{
+    display: block;
+    width: 100%;
+}
+.price{
+    color: #c62828;
+    font-weight: bold;
+    margin: 8px 0;
+}
